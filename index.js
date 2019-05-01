@@ -1,6 +1,6 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
-const token = process.env.DISCORD_BOT_SECRET;
+const token = bot.env.DISCORD_BOT_SECRET;
  
 // Set the prefix
 let prefix = "tc ";
